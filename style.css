@@ -1,6 +1,6 @@
 #banner {
     height:90vh;
-    background: url('picture.jpg');
+    background: url('pexels-2903985.jpg');
     background-size: cover;
 }
 
@@ -52,7 +52,7 @@ section {
 .card {
     transition: background-color 0.3s, color 0.3s;
     border: 5px solid;
-    var(--border);
+   
 }
 .card:hoover{
     background-color: black;
@@ -71,4 +71,74 @@ color:rgb(104, 181, 243)
 }
 #services{
     background-color: rgb(248, 238, 226);
+}
+#cta {
+    height:70vh;
+    background: url('calm-clouds.jpg');
+    background-size: cover;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.testimonials img {
+width: 200px;
+}
+.testimonials{
+    border: 2px solid rgb(243, 213, 176);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#faqs{
+    background-color: #7de3f5;
+}
+.faq-section {
+    max-width: 800px;
+    margin:auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid rgb(94, 199, 248);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(235, 235, 189);
+}
+.accordion-button:hover{
+    background-color: aqua;
+    color: #FFF;
+}
+footer{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: rgb(26, 25, 25);
+}
+footer ul.list-unstyled li a {
+color: #ffffff;
+text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a {
+    color: rgb (8,47,8);
+}
+.btn-outline-light{
+    border-color: #FFF;
+    border-radius: 0;
 }
